@@ -89,3 +89,40 @@ a {
 .btn-multi:hover {
     background-color: #daa520;
 }
+
+        .btns {
+            display: inline;
+            padding: 12px 30px;
+            margin: 10px 5px 5px 0;
+            border: none;
+            border-radius: 50px;
+            background: #333;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s ease;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 8px 16px -6px rgba(0, 0, 0, 0.4);
+            
+            width:300px;
+        }
+        .effect-10 {
+            background: linear-gradient(135deg, #ff758c, #ff9e5e);
+            box-shadow: 0 4px 0 #c1454b, 0 6px 16px #ff6f91;
+        }      
+          .effect-10:hover {
+            box-shadow: 0 6px 0 #b13b44, 0 0 28px #ffa07a, 0 0 40px #ffb6c1;
+            transform: scale(1.02);
+        }
+.menu_r 
+{   
+    width:40%;
+    float:right;
+    align-items: flex-end;
+    
+}
+         
